@@ -17,6 +17,8 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         
-        return array('dd' => 'affdfs');
+        return array('dd' => 'affdfs',
+                     'b' => 'c',
+                    );
     }
 }
